@@ -10,6 +10,6 @@ def find_dog(dog_name):
         print(f"{dog_name} is ready for adoption!")
 
 try:
-    find_dog("Cat")  # Change this input to test different outputs
+    find_dog("Muffy")  # Change this input to test different outputs
 except DogNotFoundError as e:
     print("Error:", e)
