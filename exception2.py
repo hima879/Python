@@ -12,4 +12,4 @@ def find_dog(dog_name):
 try:
     find_dog("Muffy")  # Change this input to test different outputs
 except DogNotFoundError as e:
-    print("Error:", e)
+    print("Error:", e) 
