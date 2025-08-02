@@ -21,4 +21,4 @@ else:
 
     # Print the Fibonacci series
     print("Fibonacci series up to", n, "terms:")
-    print(result)
+    print(result)  
