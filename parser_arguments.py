@@ -1,6 +1,6 @@
 import argparse  # Import the argparse module to handle command-line arguments
 
-# Description message to explain what the program does
+# Description message to explain what the program does 
 description = "A simple CLI tool to manage your tasks."
 
 # Create an ArgumentParser object with the description
@@ -24,4 +24,5 @@ if not args.color or args.color.strip() == "":
 
 # Finally, print the color that was either provided via command-line or input by the user
 print("You entered color:", args.color)
+
  
