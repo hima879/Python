@@ -1,5 +1,5 @@
-import sys          # Provides access to command-line arguments and system functions
-import os           # Helps with handling file and directory paths
+import sys           # Provides access to command-line arguments and system functions
+import os            # Helps with handling file and directory paths
 
 # Extract just the script's filename without the full directory path
 # sys.argv[0] is the full path (or just filename) of the script being run
@@ -36,4 +36,5 @@ print("Number of arguments provided (including script name):", len(args))
 
 # Print the count of arguments excluding the script name
 print("Number of arguments provided (excluding script name):", len(args) - 1)
+
 
