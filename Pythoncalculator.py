@@ -1,9 +1,9 @@
-def calculator():
-    # Read the first number
+def calculator(): 
+    # Read the first number 
     num1 = float(input("Enter the first number: "))
 
     # Read the operation
-    operation = input("Enter the operation (+, -, *, /): ")
+    operation = input("Enter the operation (+, -, *, /): ")  
 
     # Read the second number
     num2 = float(input("Enter the second number: "))
@@ -39,3 +39,4 @@ def calculator():
 
 # Start the calculator
 calculator()
+
