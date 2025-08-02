@@ -1,5 +1,5 @@
 # Define a class called Box to represent a real-world storage box
-class Box:
+class Box: 
     # This is the constructor method; it runs when you create a new Box
     def __init__(self, owner, items):
         self.owner = owner        # Store the name of the box owner
@@ -44,3 +44,4 @@ print(maya_box)
 # Prints: 📦 Box for Alex & Maya contains: ['books', 'shoes', 'toys', 'clothes']
 # This is the result of operator overloading
 print(shared_box)
+
