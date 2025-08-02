@@ -9,7 +9,7 @@ pairs = [tuple(map(int, pair.strip().split())) for pair in user_input.split(',')
 
 # Sorting using a regular function as key
 def get_second(pair):
-    return pair[1]
+    return pair[1] 
 
 sorted_pairs = sorted(pairs, key=get_second)
 print("Sorted pairs with regular function:", sorted_pairs)
@@ -17,3 +17,4 @@ print("Sorted pairs with regular function:", sorted_pairs)
 # Sorting using a lambda function as key (does the same thing)
 sorted_pairs_lambda = sorted(pairs, key=lambda pair: pair[1])
 print("Sorted pairs with lambda function:", sorted_pairs_lambda)
+
