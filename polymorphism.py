@@ -7,7 +7,7 @@ class YamahaBike:
     def move(self):
         print("🏍️ Yamaha bike is pedaling through the streets.")
 
-class VolvoBus:
+class VolvoBus:  
     def move(self):
         print("🚌 Volvo bus is rolling down the road.")
 
@@ -20,9 +20,10 @@ def start_moving(vehicle):
 # Create instances of each vehicle
 toyota = ToyotaCar()
 yamaha = YamahaBike()
-volvo = VolvoBus()
+volvo = VolvoBus() 
 
 # Call the same function with different vehicle objects
 start_moving(toyota)   # Calls ToyotaCar's move()
 start_moving(yamaha)   # Calls YamahaBike's move()
 start_moving(volvo)    # Calls VolvoBus's move()
+
