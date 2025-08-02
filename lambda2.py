@@ -1,4 +1,4 @@
-from functools import reduce  # 'reduce' is part of the functools module in Python
+from functools import reduce  # 'reduce' is part of the functools module in Python 
 
 # Sample list of numbers
 numbers = [1, 2, 3, 4, 5, 6]
@@ -31,3 +31,4 @@ print("Even numbers (using lambda):", evens)
 product = reduce(lambda x, y: x * y, evens)  # Multiplies all elements in 'evens'
 print("Product of even numbers (using lambda + reduce):", product)
 # Output: 46080
+
