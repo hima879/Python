@@ -12,7 +12,6 @@ def func():
     print("My name is Python.")  # Original function logic
 
 func()  # Calls the wrapped function
-
 # Output:
 # Hello!
 # My name is Python.
