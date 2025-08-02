@@ -2,7 +2,7 @@ numbers = [1, 2, 3, 4, 5]  # Original list of numbers
 
 # 1. Double the numbers using list comprehension
 # For each number i in numbers, multiply it by 2 and collect the results in a new list
-doubled = [i * 2 for i in numbers]
+doubled = [i * 2 for i in numbers] 
 
 # 2. Get only even numbers using list comprehension with a condition
 # For each number i in numbers, include it in the new list only if i is divisible by 2 (even)
