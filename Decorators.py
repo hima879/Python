@@ -1,5 +1,4 @@
 # Decorator: a function that modifies another function's behavior.
-
 def greet_decorator(func):  # 'func' is the original function to be decorated
     def wrapper():          # Wrapper adds extra behavior around 'func'
         print("Hello!")     # Before calling 'func'
