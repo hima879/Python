@@ -11,4 +11,4 @@ Useful for quick, short functions without formally defining them using def."""
 # Equivalent lambda function that adds 2 to a number
 add_two_lambda = lambda x: x + 2
 
-print(add_two_lambda(5))  # Output: 7
+print(add_two_lambda(5))  # Output: 7 
