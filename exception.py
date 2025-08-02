@@ -1,5 +1,5 @@
 # Define a function to check if someone can enter the club
-def enter_club(age):
+def enter_club(age):  
     # Check if the person is younger than 18
     if age < 18:
         # If they are too young, raise an error
@@ -19,3 +19,4 @@ try:
 except Exception as e:
     # Print the error message
     print("Error:", e)
+
