@@ -11,8 +11,8 @@ class Dog(Animal):
         self.name = name  # Assign name to the Dog object
         self.age = age    # Assign age to the Dog object
 
-    # Method specific to the Dog class
-    def bark(self):
+    # Method specific to the Dog class  
+    def bark(self): 
         print("woof " + self.name)  # Print a bark sound with the dog's name
 
 # Create an instance of the Dog class with name "Roger" and age 8
@@ -29,3 +29,4 @@ roger.bark()       # Output: woof Roger
 
 # Call the inherited walk method from the Animal class
 roger.walk()       # Output: Walking...
+
